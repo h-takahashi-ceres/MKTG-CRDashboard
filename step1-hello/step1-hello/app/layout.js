@@ -1,0 +1,11 @@
+export const metadata = {
+  title: "AdOps Hub - Hello",
+};
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="ja">
+      <body>{children}</body>
+    </html>
+  );
+}
